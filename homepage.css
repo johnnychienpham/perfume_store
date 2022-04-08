@@ -1,0 +1,384 @@
+
+body{
+background-image: url(images/body2-01.jpg);
+background-size: 100% 100%;
+
+}
+
+
+header{
+    
+    height: 100px;
+
+}
+
+
+
+nav{
+    /*background-color: violet;*/
+    
+}
+.search-container
+{
+    float:right;
+    /*background-color: teal;*/
+    margin-top:3px;
+    margin-right:35px;
+}
+
+nav ul{
+    
+    list-style-type: none;
+    
+    margin-left:10px ;
+    padding-top:15px;
+   
+    
+
+}
+
+nav ul a{
+    
+    text-decoration: none;
+    font-size:18px;
+    float:left;
+    color: white;
+    border-right: white solid 1px;
+    margin-right:50px;
+    padding-right:10px; 
+   
+}
+
+.box .uname{
+    border: 2px solid white;
+    text-align:center;
+    padding:10px 5px;
+    border-radius: 30px;
+    color:white;
+    margin-right:20px;
+    width:150px;
+    transition: 0.4s;
+    background:none;
+
+}
+.box .uname:hover{
+    border-color: #FF0066;
+    width:200px ;
+}
+.box .password{
+    border: 2px solid white;
+    text-align:center;
+    padding:10px 5px;
+    border-radius: 30px;
+    color:white;
+    margin-right:20px;
+    width:150px;
+    transition: 0.4s;
+    background: none;
+
+
+}
+.box .password:hover{
+    border-color: #FF0066;
+    width:200px ;
+
+}
+.box .login{
+    width: 70px;
+    text-align:center;
+    border-radius:19px;
+    border:2px solid #FF0066;
+    color:white;
+    padding:10px 5px;
+    background:none;
+    transition :0.25s;
+    
+}
+.box .login:hover{
+    background-color:#FF0066 ;
+    cursor: pointer;
+}
+
+
+
+
+
+nav ul a:hover
+{
+    color:#FF0066;
+    border-right:#FF0066 solid 1px;
+}
+
+
+
+nav{
+    
+    height:50px;
+}
+
+
+#banner{
+
+
+height:600px;
+/*background-color: yellow;*/
+}
+
+#banner img{
+    padding-left:50px;
+    width:1400px;
+    height:600px;
+}
+
+
+
+
+#brandname{
+    /*background-color:blue;*/
+    height: 950px;
+    width:20%;
+    float:left;
+    margin-top:40px;
+    
+}
+/*men cologine*/
+#mencologine p{
+    color:white;
+    font-size: 20px;
+    padding-left:3px;
+}
+#mencologine li {
+    list-style-type: none;
+    border-bottom:#fff dashed 1px;
+    width:100px;
+    padding-left:10px;
+    margin-bottom:20px;
+    border-left:#fff solid 1px;
+}
+#mencologine a
+{
+    text-decoration: none;
+    color:white;
+
+}
+#mencologine a:hover{
+    color:#FF0066;
+}
+
+#mencologine li:hover{
+    border-left:#FF0066 solid 1px;
+    border-bottom:#FF0066 dashed 1px;
+}
+
+/*woman perfume*/
+#womensperfume p{
+    color:white;
+    font-size: 20px;
+    padding-left:3px;
+}
+#womensperfume li {
+    list-style-type: none;
+    border-bottom:#fff dashed 1px;
+    width:100px;
+    padding-left:10px;
+    margin-bottom:20px;
+    border-left:#fff solid 1px;
+}
+#womensperfume a
+{
+    text-decoration: none;
+    color:white;
+
+}
+#womensperfume a:hover{
+    color:#FF0066;
+}
+#womensperfume li:hover{
+    border-left:#FF0066 solid 1px;
+    border-bottom:#FF0066 dashed 1px;
+}
+
+
+
+/*cosmetic*/
+#cosmetic p{
+    color:white;
+    font-size: 20px;
+    padding-left:3px;
+}
+#cosmetic li {
+    list-style-type: none;
+    border-bottom:#fff dashed 1px;
+    width:100px;
+    padding-left:10px;
+    margin-bottom:20px;
+    border-left:#fff solid 1px;
+}
+#cosmetic p{
+    color:white;
+}
+#cosmetic a
+{
+    text-decoration: none;
+    color:white;
+
+}
+
+
+#cosmetic a:hover{
+    color:#FF0066;
+   
+    
+}
+#cosmetic li:hover{
+    border-left:#FF0066 solid 1px;
+    border-bottom:#FF0066 dashed 1px;
+}
+
+/*section product*/
+section #product
+{   
+    background-color: yellow;
+    width:80%;
+    float:left;
+    height:950px;
+    margin-top:50px;
+    
+}
+
+/*sale off*/
+.saleprice{
+    font-size: 22px;
+    text-align:center;
+    /*background-color: yellow;*/
+    color:rgba(255, 151, 193, 0.7);
+    margin-top : 2px;
+    width:200px;
+    margin-left:50px;
+   
+    
+  
+    
+}
+.price{
+    font-size:22px;
+    text-align: center;
+    /*background-color:yellowgreen ;*/
+    color:#FF97C1 ;
+    margin-top:0px;
+    width:200px;
+    margin-left:50px;
+    
+    
+    
+}
+.name
+{   color:white;
+    font-size: 24px;
+    text-align: center;
+    margin-bottom:1px;
+    /*background-color: wheat;*/
+    width:200px;
+    margin-left:50px;
+    
+}
+
+#tên {
+    color:white;
+    font-weight: bold;
+    font-size: 30px;
+    margin-top:53px;
+    
+}
+.sale img{
+    width:180px;
+    height:180px;
+    /*background-color: blue;*/
+    margin-left: 60px;
+}
+
+
+
+#saleproduct
+{   
+    /*background-color: pink;*/
+    width:80%;
+    float:left;
+    height:400px;
+    
+}
+#saleproduct ul {
+    list-style-type:  none;
+}
+#saleproduct ul li{
+    float: left;
+    list-style-type:  none;
+    
+}
+
+
+
+.class {
+    color:white;
+}
+
+
+
+/*best selling*/
+#bestselling
+{   
+    /*background-color: red;*/
+    width:80%;
+    float:left;
+    height:550px;
+    margin-top:50px;
+    
+}
+
+#bestselling ul {
+    list-style-type:  none;
+}
+#bestselling ul li{
+    float: left;
+    list-style-type:  none;
+    
+}
+
+
+
+
+
+
+footer{
+    /*background-color:brown;*/
+    clear:both;
+    height:250px;
+    border-top: rgba(255, 151, 193, 0.7) solid 2px;
+    width:100%;
+    
+
+    
+}
+
+footer div{
+    float:left;
+    border-left: white dashed 1px ;
+    padding-left: 18px;
+    margin-top:30px;
+    margin-right:80px;
+    margin-left:10px;
+    height:200px;
+}
+
+footer div .footer1{
+    color:white;
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+footer div .footer2 {
+    color:white;
+}
+
+
+

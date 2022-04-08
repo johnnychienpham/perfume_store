@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>registration page</title>
+    <link rel="stylesheet" href="regist.css" />
+    <script src="regist.js" ></script> 
+
+
+</head>
+<body>
+    
+    <header>
+        <img src="images/logo.png" alt="logoshop" width="230px" height="100px">
+
+    </header>
+    
+    <nav>
+        <div class="search-container">
+            <form class="box" mehthod="GET" action="#">
+               <input class="uname" type="text" name="uname" value="" placeholder="username">
+                <input class="password" type="password" name="password" value="" placeholder="password">
+                <input class="login" type="submit" value="Login">
+
+            </form>
+        </div>
+        <div>
+        <ul>
+            <li><a href="homepage.html">HOME</a></li>
+            <li><a href="brands.html">BRANDS</a></li>
+            <li><a href="about.html">ABOUT </a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+            <li><a href="regist.html">MEMBER</a></li>
+        </ul>
+        </diV>
+
+    </nav>
+    
+    <div id="banner">
+
+        <img src="images/four-assorted-perfume-glass-bottles-965989.jpg" alt="banner" >
+    </div>
+    
+    <section id="brandname">
+
+        <div id="mencologine">
+           
+            <p>MEN'S COLOGNE</p>
+            <ul>
+                <li><a href="">ZARA</a></li>
+                <li><a href="">GUCCI</a></li>
+                <li><a href="">AQUA DI GIO</a></li>
+                <li><a href="">CHANEL</a></li>
+                <Li><a href="">DIOR</a></Li>
+            </ul>
+            
+        </div>
+
+        <div id="womensperfume">
+            <p>WOMEN'S PERFUME</p>
+            <ul>
+                <li><a href="">GUCCI</a></li>
+                <li><a href="">LANCOME</a></li>
+                <li><a href="">DIOR</a></li>
+                <li><a href="">CHANEL</a></li>
+                <Li><a href="">TOM FORD</a></Li>
+            </ul>
+            
+        </div>
+
+        <div id="cosmetic">
+            <p>COSMETIC</p>
+            <ul>
+                <li><a href="">MAKEUP REMOVER</a></li>
+                <li><a href="">FACIAL CLEANSER</a></li>
+                <li><a href="">TONER</a></li>
+                <li><a href="">SERUM</a></li>
+                <li><a href="">MOISTURIZER</a></li>
+            </ul>
+        </div>
+    </section>
+    
+    
+    <section class="registration">
+    <p style="font-size: 22px;">HOW TO BECOME AROMA'S MEMBER</p> 
+    <p style="font-size: 19px;">Become Aroma's member you will have a lot of advantages. Let being our member right now by fulfilling registration form below</p>
+    <form name="registration" method="GET" action="#" onsubmit="checkData()">
+        Full name <input class="aesthetic" id="f" type="text" name="fullname" value="" placeholder="entry fullname" >  <span id="fnameerror" style="color:red;font-size: 17px;"></span><br>
+        Phone number<input class="aesthetic" id="pn" type="text" name="phonenumber" value="" placeholder="entry phone number" >  <span id="phonenumbererror" style="color:red;font-size: 17px;"></span><br>
+        Address<input class="aesthetic" id="a" type="text" name="address" value="" placeholder="entry home address or company address" >  <span id="addresserror" style="color:red;font-size: 17px;"></span><br>
+        Password<input class="aesthetic" id="p" type="password" name="password" value="" placeholder="entry password from 6 to 32 characters" >  <span id="passworderror" style="color:red;font-size: 17px;"></span><br>
+        Retype password<input class="aesthetic" id="r" type="password" name="rpassword" value="" placeholder="entry password from 6 to 32 characters" >  <span id="rpassworderror" style="color:red;font-size: 17px;"></span><br>
+        Gender<input class="gender" type="radio" name="gender" value="male">Male
+            <input class="gender" type="radio" name="gender" value="female">Female 
+            <input class="gender" type="radio" name="gender" value="others">Others 
+        <br>
+        Date of birth
+        
+        <select class="select1" class="aestheticselect" name="month">
+            <option>Month</option>
+                <option>January</option>
+                <option>February</option>
+                <option>March</option>
+                <option>April</option>
+                <option>May</option>
+                <option>June</option>
+                <option>Jully</option>
+                <option>August</option>
+                <option>September</option>
+                <option>October</option>
+                <option>Novermber</option>
+                <option>December</option>
+        </select>
+            
+        
+        
+        <select class="select1" class="aestheticselect" name="days" >
+            <option>Days</option>
+            <option>1</option>
+            <option>2</option>
+            <option>3</option>
+            <option>4</option>
+            <option>5</option>
+            <option>6</option>
+            <option>7</option>
+            <option>8</option>
+            <option>9</option>
+            <option>10</option>
+            <option>11</option>
+            <option>12</option>
+            <option>13</option>
+            <option>14</option>
+            <option>15</option>
+            <option>16</option>
+            <option>17</option>
+            <option>18</option>
+            <option>19</option>
+            <option>20</option>
+            <option>21</option>
+            <option>22</option>
+            <option>23</option>
+            <option>24</option>
+            <option>25</option>
+            <option>26</option>
+            <option>27</option>
+            <option>28</option>
+            <option>29</option>
+            <option>30</option>
+            <option>31</option>
+
+
+        </select>
+
+        <select class="select1" class="aestheticselect" name="years">
+            <option>Years</option>
+            <option>1990</option>
+            <option>1991</option>
+            <option>1992</option>
+            <option>1993</option>
+            <option>1994</option>
+            <option>1995</option>
+            <option>1996</option>
+            <option>1997</option>
+            <option>1998</option>
+            <option>1999</option>
+            <option>2000</option>
+            <option>2001</option>
+            <option>2002</option>
+            <option>2003</option>
+            <option>2004</option>
+            <option>2005</option>
+            <option>2006</option>
+            <option>2007</option>
+            <option>2008</option>
+            <option>2009</option>
+            <option>2010</option>
+            <option>2011</option>
+            <option>2012</option>
+            <option>2013</option>
+            <option>2014</option>
+            <option>2015</option>
+            <option>2016</option>
+            <option>2017</option>
+            <option>2018</option>
+            <option>2019</option>
+            <option>2020</option>
+            <option>2021</option>
+            <option>2022</option>
+            
+            
+
+
+        </select>
+
+            
+        
+        
+
+
+        <br>
+        <input class="checkbox1" type="checkbox" name="promotion" value="">Receive informations and promotions of Aroma via email<br>
+        <input class="submit1" type="submit" value=" Create new account" >
+
+
+
+    </form>
+        
+    
+    
+    
+    </section>
+    
+    <footer>
+        <div class="footer">
+            <p class="footer1">HELP & FAQS</p>
+            <p class="footer2">
+                Online Ordering<br>
+                Shipping<br>
+                Billing<br>
+                Returns & Exchanges<br>
+                International Shipments<br>
+                Customer Service<br>
+            </p>
+        </div>
+        <div class="footer">
+            <p class="footer1">ABOUT AROMA</p>
+            <p class="footer2">
+            Newsroom<br>
+            Careers<br>
+            Aroma Stands Social Impact<br>
+            </p>
+        </div>
+        <div>
+            <p class="footer1">CONTACT US</p>
+            <p class="footer2">
+                Aroma's Customer Service is ready to assist you. <br>
+                BY PHONE: 4-678-AROMA (4-678-445-6832) (U.S. or VietNam)<br>
+                BY MAIL: aroma@gmail.com<br>
+                <br>
+                Representatives or Beauty Advisors are available:<br>
+                MON-FRI: 5am to 9pm PT<br>
+                SAT-SUN: 6am to 9pm PT<br>
+            <p>
+        </div>
+
+    </footer> 
+    <script>
+        function checkData() {
+            if(document.registration.fullname.value == "")
+            document.getElementById("fnameerror").innerHTML="Please type your information"
+            
+            if(document.registration.phonenumber.value == "")
+            document.getElementById("phonenumbererror").innerHTML="Please type your information"
+            
+            if (document.registration.address.value == ""){
+            document.getElementById("addresserror").innerHTML="Please type your information"
+            }
+            if (document.registration.password.value == ""){
+                document.getElementById("passworderror").innerHTML="Please type your information"
+            }
+            if (document.registration.rpassword.value == ""){
+                document.getElementById("rpassworderror").innerHTML="Please type your information"
+            }
+                }
+    </script>
+</body>
+</html>

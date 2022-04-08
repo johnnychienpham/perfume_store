@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>brands page</title>
+    <link rel="stylesheet" href="brands.css" />
+</head>
+<body>
+    
+    <header>
+        <img src="images/logo.png" alt="logoshop" width="230px" height="100px">
+
+    </header>
+    
+    <nav>
+        <div class="search-container">
+            <form class="box" mehthod="GET" action="#">
+               <input class="uname" type="text" name="uname" value="" placeholder="username">
+                <input class="password" type="password" name="password" value="" placeholder="password">
+                <input class="login" type="submit" value="Login">
+
+            </form>
+        </div>
+        <div>
+        <ul>
+            <li><a href="homepage.html">HOME</a></li>
+            <li><a href="brands.html">BRANDS</a></li>
+            <li><a href="about.html">ABOUT </a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+            <li><a href="regist.html">MEMBER</a></li>
+        </ul>
+        </diV>
+
+    </nav>
+    
+    <div id="banner">
+
+        <img src="images/photo-of-perfume-bottle-1961792.jpg" alt="banner" >
+    </div>
+    
+    <section id="brandname">
+
+        <div id="mencologine">
+           
+            <p>MEN'S COLOGNE</p>
+            <ul>
+                <li><a href="">ZARA</a></li>
+                <li><a href="">GUCCI</a></li>
+                <li><a href="">AQUA DI GIO</a></li>
+                <li><a href="">CHANEL</a></li>
+                <Li><a href="">DIOR</a></Li>
+            </ul>
+            
+        </div>
+
+        <div id="womensperfume">
+            <p>WOMEN'S PERFUME</p>
+            <ul>
+                <li><a href="">GUCCI</a></li>
+                <li><a href="">LANCOME</a></li>
+                <li><a href="">DIOR</a></li>
+                <li><a href="">CHANEL</a></li>
+                <Li><a href="">TOM FORD</a></Li>
+            </ul>
+            
+        </div>
+
+        <div id="cosmetic">
+            <p>COSMETIC</p>
+            <ul>
+                <li><a href="">MAKEUP REMOVER</a></li>
+                <li><a href="">FACIAL CLEANSER</a></li>
+                <li><a href="">TONER</a></li>
+                <li><a href="">SERUM</a></li>
+                <li><a href="">MOISTURIZER</a></li>
+            </ul>
+        </div>
+    </section>
+    
+    
+    <section id="brands">
+        
+        <!--modal shopping cart-->
+        <button id="cart">
+            <i class="fa fa-shopping-basket" aria-hidden="true"></i>
+            Shopping cart
+        </button>
+
+        <div name="myModal" class="modal">
+            <div class="modal-header">
+                <h5 class="modal-title">Shopping cart</h5>
+                <span class="close">&times;</span>
+            </div>
+            <div class="modal-body">
+                <div class="cart-row">
+                    <span class="cart-item cart-header cart-column">Product</span>
+                    <span class="cart-price cart-header cart-column">Price</span>
+                    <span class="cart-quantity cart-header cart-column">Quantity</span>
+                </div>
+        
+                <div class="cart-items">
+        
+                </div>
+        
+                <div class="cart-total">
+                    <strong class="cart-total-title">Total:</strong>
+                    <span class="cart-total-price">0VNĐ</span>
+                </div>
+        
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary close-footer">Exit</button>
+                    <button type="button" class="btn btn-secondary close-footer">Payment</button>
+        
+                </div>
+        
+                
+            </div>
+        
+        </div>
+        <!--contents-->
+        <div class="products">
+            <ul>
+                <li class="main-product">
+                    <div class="img-product">
+                        <img class="img-prd" src="images/bc3.png">
+                    </div>
+    
+                    <div class="content-product">
+                        <h3 class="content-product-h3">Armani Code</h3>
+                        <div class="content-product-deltals">
+                            <div class="price">
+                                <span class="money">150 USD</span>
+                            </div>
+                            <button type="button" class="btn btn-cart">Add to cart</button>
+    
+                        </div>
+    
+                    </div>
+    
+                </li>
+                <li class="main-product">
+                    <div class="img-product">
+                        <img class="img-prd" src="images/bc2.png">
+                    </div>
+    
+                    <div class="content-product">
+                        <h3 class="content-product-h3">Versace Pour Homme </h3>
+                        <div class="content-product-deltals">
+                            <div class="price">
+                                <span class="money">220 USD</span>
+                            </div>
+                            <button type="button" class="btn btn-cart">Add to cart</button>
+    
+                        </div>
+    
+                    </div>
+    
+                </li>
+                <li class="main-product">
+                    <div class="img-product">
+                        <img class="img-prd" src="images/bc1.png">
+                    </div>
+    
+                    <div class="content-product">
+                        <h3 class="content-product-h3">CK Be</h3>
+                        <div class="content-product-deltals">
+                            <div class="price">
+                                <span class="money">160 USD</span>
+                            </div>
+                            <button type="button" class="btn btn-cart">Add to cart</button>
+    
+                        </div>
+    
+                    </div>
+    
+                </li>
+                <li class="main-product">
+                    <div class="img-product">
+                        <img class="img-prd" src="images/unnamed (1).png">
+                    </div>
+    
+                    <div class="content-product">
+                        <h3 class="content-product-h3">Dior Cherie</h3>
+                        <div class="content-product-deltals">
+                            <div class="price">
+                                <span class="money">320 USD</span>
+                            </div>
+                            <button type="button" class="btn btn-cart">Add to cart</button>
+    
+                        </div>
+    
+                    </div>
+    
+                </li>
+                
+    
+                <li class="main-product">
+                    <div class="img-product">
+                        <img class="img-prd" src="images/km2.png">
+                    </div>
+    
+                    <div class="content-product">
+                        <h3 class="content-product-h3">Gucci Sport</h3>
+                        <div class="content-product-deltals">
+                            <div class="price">
+                                <span class="money">244 USD</span>
+                            </div>
+                            <button type="button" class="btn btn-cart">Add to cart</button>
+    
+                        </div>
+    
+                    </div>
+    
+                </li>
+    
+                <li class="main-product">
+                    <div class="img-product">
+                        <img class="img-prd" src="images/km3.png">
+                    </div>
+    
+                    <div class="content-product">
+                        <h3 class="content-product-h3">Chanel Allure</h3>
+                        <div class="content-product-deltals">
+                            <div class="price">
+                                <span class="money">223 USD</span>
+                            </div>
+                            <button type="button" class="btn btn-cart">Add to cart</button>
+    
+                        </div>
+    
+                    </div>
+    
+                </li>
+            </ul>
+    
+        </div>
+    
+        
+        
+        
+        
+    
+    
+    
+    </section>
+    
+    <footer>
+        <div class="footer">
+            <p class="footer1">HELP & FAQS</p>
+            <p class="footer2">
+                Online Ordering<br>
+                Shipping<br>
+                Billing<br>
+                Returns & Exchanges<br>
+                International Shipments<br>
+                Customer Service<br>
+            </p>
+        </div>
+        <div class="footer">
+            <p class="footer1">ABOUT AROMA</p>
+            <p class="footer2">
+            Newsroom<br>
+            Careers<br>
+            Aroma Stands Social Impact<br>
+            </p>
+        </div>
+        <div>
+            <p class="footer1">CONTACT US</p>
+            <p class="footer2">
+                Aroma's Customer Service is ready to assist you. <br>
+                BY PHONE: 4-678-AROMA (4-678-445-6832) (U.S. or VietNam)<br>
+                BY MAIL: aroma@gmail.com<br>
+                <br>
+                Representatives or Beauty Advisors are available:<br>
+                MON-FRI: 5am to 9pm PT<br>
+                SAT-SUN: 6am to 9pm PT<br>
+            <p>
+        </div>
+
+    </footer> 
+
+
+</body>
+</html>

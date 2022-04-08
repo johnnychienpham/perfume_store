@@ -1,0 +1,376 @@
+body{
+    background-image: url(images/body2-01.jpg);
+    background-size: 100% 100%;
+    
+    }
+
+header{
+
+    height: 100px;
+
+}
+
+
+
+nav{
+    /*background-color: violet;*/
+    
+}
+.search-container
+{
+    float:right;
+    /*background-color: teal;*/
+    margin-top:3px;
+    margin-right:35px;
+}
+
+nav ul{
+    
+    list-style-type: none;
+    
+    margin-left:10px ;
+    padding-top:15px;
+    
+    
+
+}
+
+nav ul a{
+    
+    text-decoration: none;
+    font-size:18px;
+    float:left;
+    color: white;
+    border-right: white solid 1px;
+    margin-right:50px;
+    padding-right:10px; 
+    
+}
+
+.box .uname{
+    border: 2px solid white;
+    text-align:center;
+    padding:10px 5px;
+    border-radius: 30px;
+    color:white;
+    margin-right:20px;
+    width:150px;
+    transition: 0.4s;
+    background:none;
+
+}
+.box .uname:hover{
+    border-color: #FF0066;
+    width:200px ;
+}
+.box .password{
+    border: 2px solid white;
+    text-align:center;
+    padding:10px 5px;
+    border-radius: 30px;
+    color:white;
+    margin-right:20px;
+    width:150px;
+    transition: 0.4s;
+    background: none;
+
+
+}
+.box .password:hover{
+    border-color: #FF0066;
+    width:200px ;
+
+}
+.box .login{
+    width: 70px;
+    text-align:center;
+    border-radius:19px;
+    border:2px solid #FF0066;
+    color:white;
+    padding:10px 5px;
+    background:none;
+    transition :0.25s;
+    
+}
+.box .login:hover{
+    background-color:#FF0066 ;
+    cursor: pointer;
+}
+
+
+
+
+
+nav ul a:hover
+{
+    color:#FF0066;
+    border-right:#FF0066 solid 1px;
+}
+
+
+
+nav{
+    
+    height:50px;
+}
+
+
+#banner{
+
+
+height:600px;
+/*background-color: yellow;*/
+}
+
+#banner img{
+    padding-left:50px;
+    width:1400px;
+    height:600px;
+}
+    
+    
+    
+
+#brandname{
+   /* background-color:blue;*/
+    height: 950px;
+    width:20%;
+    float:left;
+    margin-top:40px;
+    
+}
+/*men cologine*/
+#mencologine p{
+    color:white;
+    font-size: 20px;
+    padding-left:3px;
+}
+#mencologine li {
+    list-style-type: none;
+    border-bottom:#fff dashed 1px;
+    width:100px;
+    padding-left:10px;
+    margin-bottom:20px;
+    border-left:#fff solid 1px;
+}
+#mencologine a
+{
+    text-decoration: none;
+    color:white;
+
+}
+#mencologine a:hover{
+    color:#FF0066;
+}
+
+#mencologine li:hover{
+    border-left:#FF0066 solid 1px;
+    border-bottom:#FF0066 dashed 1px;
+}
+
+/*woman perfume*/
+#womensperfume p{
+    color:white;
+    font-size: 20px;
+    padding-left:3px;
+}
+#womensperfume li {
+    list-style-type: none;
+    border-bottom:#fff dashed 1px;
+    width:100px;
+    padding-left:10px;
+    margin-bottom:20px;
+    border-left:#fff solid 1px;
+}
+#womensperfume a
+{
+    text-decoration: none;
+    color:white;
+
+}
+#womensperfume a:hover{
+    color:#FF0066;
+}
+#womensperfume li:hover{
+    border-left:#FF0066 solid 1px;
+    border-bottom:#FF0066 dashed 1px;
+}
+
+
+
+/*cosmetic*/
+#cosmetic p{
+    color:white;
+    font-size: 20px;
+    padding-left:3px;
+}
+#cosmetic li {
+    list-style-type: none;
+    border-bottom:#fff dashed 1px;
+    width:100px;
+    padding-left:10px;
+    margin-bottom:20px;
+    border-left:#fff solid 1px;
+}
+#cosmetic p{
+    color:white;
+}
+#cosmetic a
+{
+    text-decoration: none;
+    color:white;
+
+}
+
+
+#cosmetic a:hover{
+    color:#FF0066;
+    
+    
+}
+#cosmetic li:hover{
+    border-left:#FF0066 solid 1px;
+    border-bottom:#FF0066 dashed 1px;
+}
+footer{
+    /*background-color:brown;*/
+    clear:both;
+    height:250px;
+    border-top: rgba(255, 151, 193, 0.7) solid 2px;
+    width:100%;
+    
+
+    
+}
+
+/*REGISTRATION FORM*/
+.registration {
+    /*background-color: yellowgreen;*/
+    color:white;
+    margin-top: 40px ;
+    height: 950px;
+    width: 80%;
+    float:left;
+   
+    
+
+}
+.registration p {
+    margin-bottom: 30px;
+}
+
+
+form{
+    font-size: 22px;
+    
+}
+
+form .aesthetic{
+    width: 400px;
+    padding:6px 12px;
+    margin-bottom:20px;
+    border-radius: 7px;
+    border:solid white 2px;
+ 
+}
+form .aesthetic:focus
+{
+    border-color:#FF0066 ;
+}
+
+
+#f{margin-left:70px;
+
+}
+#pn{margin-left: 37px;
+
+}
+#a {margin-left:91px;
+
+}
+#p
+{margin-left:80px;
+
+}
+#r 
+{
+margin-left:13px;
+}
+
+.gender 
+{margin-left:100px;
+width: 20px;
+height:20px;
+margin-bottom:30px;
+
+
+}
+
+.select1{
+    margin-left: 47px;
+    width: 90px;
+    height: 25px;
+    border-radius: 7px;
+    margin-bottom: 30px;
+    border: solid white 2px;
+    
+    
+}
+
+.select1:focus{
+
+border-color:#FF0066 ;
+
+
+}
+.checkbox1{
+    width: 17px ;
+    
+    height: 17px;
+    
+    
+}
+
+.submit1{
+    margin-top:40px;
+    margin-left:100px;
+
+    width :440px;
+
+    height:50px;
+    border-radius: 7px;
+    background-color: #FFB5C5 ;
+    
+
+   
+    font-size: 15px;
+    color:#E6F1D8;
+   
+}
+.submit1:hover{
+    background-color: #FF0066;
+    color: white;
+}
+
+/*foot page*/
+footer div{
+    float:left;
+    border-left: white dashed 1px ;
+    padding-left: 18px;
+    margin-top:30px;
+    margin-right:80px;
+    margin-left:10px;
+    height:200px;
+    
+}
+
+footer div .footer1{
+    color:white;
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+footer div .footer2 {
+    color:white;
+}
+    
